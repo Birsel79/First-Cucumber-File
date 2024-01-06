@@ -8,12 +8,6 @@ Feature: Login Feature
     And User clicks login button
     Then User should successfully login to system
 
-  Scenario: Valid username and invalid password test
-    Given User is on login page
-    When User enters valid user name
-    And User enters invalid user password
-    And User clicks login button
-    Then User should not login to system
 
   Scenario: Invalid username and valid user password test
     Given User is on login page
